@@ -1,0 +1,59 @@
+.banner-c {
+    height: 100vh;
+}
+
+.navbar-menu {
+    flex-grow: 0;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .img-s {
+        height: 10px;
+        width: 10px;
+    }
+
+    .header-img {
+        height: auto;
+        width: 100%;
+    }
+    .product-img{
+        height: 178px;
+    width: 95%;
+    }
+}
+
+.img-s {
+    height: 461px;
+    width: 400px;
+}
+
+.header-img {
+    height: auto;
+    width: 100%;
+}
+.product-img{
+    height: 178px;
+    width: 95%;
+}
+.top-btn{
+    background-color: #A97219;
+    padding: 8px 40px;
+    color: white;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 18px;
+}
+.top-btn:hover{
+    background-color: #724f16; 
+    color: white;  
+}
+.container{
+    background-color: #7CAFDB;
+    padding: 2px 4px;
+}
+.text-dark:hover{
+           background-color:#b8d9f5 ;
+           border-radius: 25px;
+}
